@@ -25,8 +25,6 @@ class Library():
             if i.title == title:
                 self.books.remove(i)
         return self.books
-        # if title == self.books:
-        #     return self.books.remove(title)
             
     def display_books(self):
         for i in self.books:
